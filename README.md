@@ -45,10 +45,3 @@ You can experiment with the following loss functions:
     pip install torch torchvision matplotlib pillow numpy
 
 <!--end code-->
-
-## Experiments and Observations
-
-Loss Function | Visual Quality | Training Time | Notes
-MSE Loss | Moderate | Fast | Over-smooth results
-L1 Loss | Better detail | Fast | Sharper edges
-Perceptual | Best looking | Slower | More realistic colors but longer training
